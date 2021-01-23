@@ -1,6 +1,6 @@
 \version "2.20.0"
 
-\include "shamisen.ly"
+\include "lilypond-shamisen/shamisen.ly"
 
 #(set-global-staff-size 36)
 
