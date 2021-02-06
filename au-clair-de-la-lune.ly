@@ -2,6 +2,10 @@
 
 \include "lilypond-shamisen/shamisen.ly"
 
+first  = \markup { \typewriter \fontsize #-6 "Ⅰ" }
+second = \markup { \typewriter \fontsize #-6 "Ⅱ" }
+third  = \markup { \typewriter \fontsize #-6 "Ⅲ" }
+
 #(set-global-staff-size 36)
 
 \paper{
@@ -41,9 +45,6 @@ songTitle = "Au clair de la lune"
 
 main = {
   g4 g g a | b2 a | g4 b a a | g1 |
-}
-
-song = \relative c''' {
 }
 
 song = {

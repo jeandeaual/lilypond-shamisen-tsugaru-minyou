@@ -2,6 +2,10 @@
 
 \include "lilypond-shamisen/shamisen.ly"
 
+first  = \markup { \typewriter \fontsize #-6 "Ⅰ" }
+second = \markup { \typewriter \fontsize #-6 "Ⅱ" }
+third  = \markup { \typewriter \fontsize #-6 "Ⅲ" }
+
 #(set-global-staff-size 36)
 
 \paper {
@@ -47,7 +51,7 @@ song = {
     f'^\first g'^\first
     aes'^\second g'^\first
     f'^\first g'8^\third f'^\first \hajiki
-    <des'\2>4^\second r
+    des'4\2^\second r
 
     \break
 
@@ -63,7 +67,7 @@ song = {
 
   bes^\first c'
   des'^\first r
-  g'8^\third f'^\first \hajiki <des'\2>4^\second
+  g'8^\third f'^\first \hajiki des'4\2^\second
   <g c'>2
 }
 

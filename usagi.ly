@@ -2,6 +2,10 @@
 
 \include "lilypond-shamisen/shamisen.ly"
 
+first  = \markup { \typewriter \fontsize #-6 "Ⅰ" }
+second = \markup { \typewriter \fontsize #-6 "Ⅱ" }
+third  = \markup { \typewriter \fontsize #-6 "Ⅲ" }
+
 #(set-global-staff-size 36)
 
 \paper {
