@@ -50,6 +50,18 @@ jobs:
         uses: docker://jeandeaual/lilypond:devel-fonts
         with:
           args: lilypond -dbackend=svg -dno-point-and-click -dmidi-extension="midi" -dpaper-size=\"a4\" -o build/svg au-clair-de-la-lune.ly
+      - name: Build A4 PDF (Tsugaru Jongara Bushi Ichidan)
+        uses: docker://jeandeaual/lilypond:devel-fonts
+        with:
+          args: lilypond -dno-point-and-click -dembed-source-code -dmidi-extension="midi" -dpaper-size=\"a4\" -o build/a4 tsugaru-jongara-bushi-ichidan-olympic.ly
+      - name: Build Letter PDF (Tsugaru Jongara Bushi Ichidan)
+        uses: docker://jeandeaual/lilypond:devel-fonts
+        with:
+          args: lilypond -dno-point-and-click -dembed-source-code -dmidi-extension="midi" -dpaper-size=\"letter\" -o build/letter tsugaru-jongara-bushi-ichidan-olympic.ly
+      - name: Build SVG (Tsugaru Jongara Bushi Ichidan)
+        uses: docker://jeandeaual/lilypond:devel-fonts
+        with:
+          args: lilypond -dbackend=svg -dno-point-and-click -dmidi-extension="midi" -dpaper-size=\"a4\" -o build/svg tsugaru-jongara-bushi-ichidan-olympic.ly
       - name: Remove extra MIDI files
         run: |
           cp build/a4/*.midi build/midi/
