@@ -2,15 +2,15 @@
 
 \include "lilypond-shamisen/shamisen.ly"
 
-first  = \markup { \fontsize #-7 "Ⅰ" }
-second = \markup { \fontsize #-7 "Ⅱ" }
-third  = \markup { \fontsize #-7 "Ⅲ" }
+first  = \markup { \typewriter \fontsize #-7 "Ⅰ" }
+second = \markup { \typewriter \fontsize #-7 "Ⅱ" }
+third  = \markup { \typewriter \fontsize #-7 "Ⅲ" }
 
 #(set-global-staff-size 36)
 
 \paper {
   indent = 0\mm
-  markup-system-spacing.padding = 5
+  markup-system-spacing.padding = 2
   system-system-spacing.padding = 2
   #(define fonts
     (set-global-fonts
@@ -40,8 +40,6 @@ third  = \markup { \fontsize #-7 "Ⅲ" }
 }
 
 song = {
-  % \override Score.RehearsalMark.font-family = #'typewriter
-  % \override TabNoteHead.style = #'slash
   \shamisenNotation #tsugaru-signs-ascii
 
   \time 2/4
@@ -76,6 +74,41 @@ song = {
   dis8^\first dis^\first f^\third ais16^\first |
   \time 2/4
   g8 f^\third g ais^\first |
+  c'8\2^\third dis'16^\first dis'\hajiki^\third c'8 ais8^\first |
+  c'8\2^\third c'\2\sukui c'\2^\third c'\2^\third |
+  \trtr { c'16\2^\third ais^\third\hajiki g\sukui g\hajiki^\first } ais8^\first ais |
+  c'8\2^\third dis'^\first f'^\first g'^\first |
+  g'^\first ais'\sukui^\first c''^\first d''^\first |
+  \repeat unfold 2 {
+    f''^\first a''16 16\sukui 8 8 |
+    a''^\first a''\sukui g'' g'' |
+  }
+  f''8 f''\sukui g''^\third g''^\third |
+  \time 3/4
+  f''8 8\hajiki 16\sukui 16\hajiki d''8 8\hajiki 16\sukui 16\hajiki |
+  \time 2/4
+  c''8^\first c'' d''^\third d'' |
+  \time 3/4
+  c''8 8\hajiki 16\sukui 16\hajiki ais'8 8\hajiki 16\sukui 16\hajiki |
+  \time 2/4
+  g'8 g'\sukui ais'^\third ais'^\third |
+  g'^\first ais'^\third g'^\first f'^\first |
+  g'^\third f'^\first g'^\third f'^\third |
+  \repeat unfold 2 {
+    \trtr { f'16^\third dis'^\third\hajiki c'\sukui c'\hajiki^\first } dis'8^\first f'^\first |
+    g'^\third g'\sukui g' f'^\third |
+  }
+  \repeat percent 3 {
+    \trtr { f'16^\third dis'^\third\hajiki c'\sukui c'\hajiki^\first } dis'8^\first f'^\first |
+  }
+  \time 1/4
+  \repeat percent 3 {
+    \trtr { f'16^\third dis'^\third\hajiki c'\sukui c'\hajiki^\first } |
+  }
+  \time 2/4
+  c'8 ais^\first c'\2^\third c'\2\sukui^\third |
+  c'\2^\third c'16\2^\third ais\hajiki^\third c'8\2^\third r |
+  <c c'\2 c'>4 q |
 }
 
 \layout {
@@ -93,8 +126,8 @@ song = {
 \book {
   \paper {
     system-system-spacing =
-      #'((basic-distance . 5)
-         (minimum-distance . 6)
+      #'((basic-distance . 4)
+         (minimum-distance . 5)
          (padding . 2)
          (stretchability . 12))
   }
