@@ -106,6 +106,7 @@ verse = \lyricmode {
         \clef "treble_8"
         \numericTimeSignature
         \stripShamisenArticulations \song
+        \bar "|."
       }
       \addlyrics \verse
       \new TabStaff \with {

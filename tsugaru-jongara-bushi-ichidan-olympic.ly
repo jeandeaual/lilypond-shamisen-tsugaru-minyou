@@ -157,6 +157,7 @@ song = {
         \clef "treble_8"
         \numericTimeSignature
         \stripShamisenArticulations \song
+        \bar "|."
       }
       \new TabStaff \with {
         stringTunings = #niagariTuning
