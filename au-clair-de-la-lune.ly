@@ -2,9 +2,24 @@
 
 \include "lilypond-shamisen/shamisen.ly"
 
-first  = \markup { \typewriter \fontsize #-6 "Ⅰ" }
-second = \markup { \typewriter \fontsize #-6 "Ⅱ" }
-third  = \markup { \typewriter \fontsize #-6 "Ⅲ" }
+first = \markup {
+  \override #'(font-name . "Libertinus Serif")
+  \fontsize #-3
+  \typewriter
+  " Ⅰ"
+}
+second = \markup {
+  \override #'(font-name . "Libertinus Serif")
+  \fontsize #-3
+  \typewriter
+  " Ⅱ"
+}
+third  = \markup {
+  \override #'(font-name . "Libertinus Serif")
+  \fontsize #-3
+  \typewriter
+  " Ⅲ"
+}
 
 #(set-global-staff-size 36)
 
@@ -24,7 +39,6 @@ songTitle = "Au clair de la lune"
 \header {
   pdftitle = \songTitle
   title = \markup {
-    % \override #'(font-name . "Libertinus Serif")
     \override #'(font-name . "C059 Roman")
     \songTitle
   }
@@ -48,8 +62,7 @@ main = {
 }
 
 song = {
-  \shamisenNotation
-  \set TabStaff.tablatureFormat = #(custom-tab-format tsugaru-signs-ascii)
+  \shamisenNotation #tsugaru-signs-ascii
 
   \time 4/4
 
@@ -63,7 +76,6 @@ song = {
 }
 
 verse = \lyricmode {
-  % \override LyricText #'font-name = "Libertinus Serif"
   \override LyricText #'font-name = "C059 Roman"
   Au clair de la lu -- ne,
   Mon a -- mi Pier -- rot,
@@ -87,12 +99,53 @@ verse = \lyricmode {
 }
 
 \book {
+  \header {
+    pdftitle = \markup \concat { \fromproperty #'header:title "（楽譜）" }
+    meter = \markup \left-column {
+      "4本（神仙）"
+      "二上り（調弦 C G C）"
+    }
+  }
+
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \clef "treble_8"
+        \numericTimeSignature
+        \stripShamisenArticulations \song
+      }
+      \addlyrics \verse
+      \new TabStaff \with {
+        stringTunings = #niagariTuning
+      } {
+        \song
+      }
+    >>
+    \layout {}
+  }
+
+  \score {
+    \unfoldRepeats \song
+    \midi {
+      \tempo 4 = 105
+      midiInstrument = "shamisen"
+    }
+  }
+}
+
+\book {
+  \bookOutputSuffix "tab"
+
   \paper {
     system-system-spacing =
       #'((basic-distance . 5)
          (minimum-distance . 6)
          (padding . 2)
          (stretchability . 12))
+  }
+
+  \header {
+    pdftitle = \markup \fromproperty #'header:title
   }
 
   \score {
@@ -109,34 +162,4 @@ verse = \lyricmode {
       \addlyrics \verse
     >>
   }
-
-  \score {
-    \unfoldRepeats \song
-    \midi {
-      \tempo 4 = 105
-      midiInstrument = "shamisen"
-    }
-  }
-}
-
-\book {
-  \bookOutputSuffix "score"
-
-  \header {
-    pdftitle = \markup \concat { \songTitle " (Score)" }
-  }
-
-  \new StaffGroup <<
-    \new Staff {
-      \clef "treble_8"
-      \numericTimeSignature
-      \stripShamisenArticulations \song
-    }
-    \addlyrics \verse
-    \new TabStaff \with {
-      stringTunings = #niagariTuning
-    } {
-      \song
-    }
-  >>
 }

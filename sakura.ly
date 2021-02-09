@@ -2,15 +2,30 @@
 
 \include "lilypond-shamisen/shamisen.ly"
 
-first  = \markup { \typewriter \fontsize #-6 "Ⅰ" }
-second = \markup { \typewriter \fontsize #-6 "Ⅱ" }
-third  = \markup { \typewriter \fontsize #-6 "Ⅲ" }
+first = \markup {
+  \override #'(font-name . "Libertinus Serif")
+  \fontsize #-3
+  \typewriter
+  " Ⅰ"
+}
+second = \markup {
+  \override #'(font-name . "Libertinus Serif")
+  \fontsize #-3
+  \typewriter
+  " Ⅱ"
+}
+third  = \markup {
+  \override #'(font-name . "Libertinus Serif")
+  \fontsize #-3
+  \typewriter
+  " Ⅲ"
+}
 
 #(set-global-staff-size 36)
 
 \paper {
   indent = 0\mm
-  markup-system-spacing.padding = 5
+  markup-system-spacing.padding = 3
   system-system-spacing.padding = 2
   #(define fonts
     (set-global-fonts
@@ -36,39 +51,32 @@ third  = \markup { \typewriter \fontsize #-6 "Ⅲ" }
 }
 
 main = \repeat unfold 2 {
-  <f' g>4^\first q^\first g'^\third r
+  <f' g>4^\first q^\first g'^\third r |
 }
 
 song = {
-  \shamisenNotation
-  \set TabStaff.tablatureFormat = #(custom-tab-format tsugaru-signs-ascii)
+  \shamisenNotation #tsugaru-signs-ascii
 
   \time 4/4
 
   \main
 
   \repeat unfold 2 {
-    f'^\first g'^\first
-    aes'^\second g'^\first
-    f'^\first g'8^\third f'^\first \hajiki
-    des'4\2^\second r
+    f'4^\first g'^\first aes'^\second g'^\first |
+    f'^\first g'8^\third f'^\first \hajiki des'4\2^\second r |
 
     \break
 
-    c'4 aes^\first
-    c' des'^\first
-    c' c'8 aes^\first
-    g4 r
+    c'4 aes^\first c' des'^\first |
+    c' c'8 aes^\first g4 r |
   }
 
   \main
 
   \break
 
-  bes^\first c'
-  des'^\first r
-  g'8^\third f'^\first \hajiki des'4\2^\second
-  <g c'>2
+  bes^\first c' des'^\first r |
+  g'8^\third f'^\first \hajiki des'4\2^\second <g c'>2 |
 }
 
 verse = \lyricmode {
@@ -93,12 +101,53 @@ verse = \lyricmode {
 }
 
 \book {
+  \header {
+    pdftitle = \markup \concat { \fromproperty #'header:title "（楽譜）" }
+    meter = \markup \left-column {
+      "4本（神仙）"
+      "二上り（調弦 C G C）"
+    }
+  }
+
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \clef "treble_8"
+        \numericTimeSignature
+        \stripShamisenArticulations \song
+      }
+      \addlyrics \verse
+      \new TabStaff \with {
+        stringTunings = #niagariTuning
+      } {
+        \song
+      }
+    >>
+    \layout {}
+  }
+
+  \score {
+    \unfoldRepeats \song
+    \midi {
+      \tempo 4 = 110
+      midiInstrument = "shamisen"
+    }
+  }
+}
+
+\book {
+  \bookOutputSuffix "tab"
+
   \paper {
     system-system-spacing =
       #'((basic-distance . 5)
          (minimum-distance . 6)
          (padding . 2)
          (stretchability . 12))
+  }
+
+  \header {
+    pdftitle = \markup \fromproperty #'header:title
   }
 
   \score {
@@ -115,34 +164,4 @@ verse = \lyricmode {
       \addlyrics \verse
     >>
   }
-
-  \score {
-    \unfoldRepeats \song
-    \midi {
-      \tempo 4 = 110
-      midiInstrument = "shamisen"
-    }
-  }
-}
-
-\book {
-  \bookOutputSuffix "score"
-
-  \header {
-    pdftitle = \markup \concat { \fromproperty #'header:title " (Score)" }
-  }
-
-  \new StaffGroup <<
-    \new Staff {
-      \clef "treble_8"
-      \numericTimeSignature
-      \stripShamisenArticulations \song
-    }
-    \addlyrics \verse
-    \new TabStaff \with {
-      stringTunings = #niagariTuning
-    } {
-      \song
-    }
-  >>
 }

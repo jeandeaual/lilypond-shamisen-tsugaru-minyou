@@ -2,15 +2,30 @@
 
 \include "lilypond-shamisen/shamisen.ly"
 
-first  = \markup { \typewriter \fontsize #-6 "Ⅰ" }
-second = \markup { \typewriter \fontsize #-6 "Ⅱ" }
-third  = \markup { \typewriter \fontsize #-6 "Ⅲ" }
+first = \markup {
+  \override #'(font-name . "Libertinus Serif")
+  \fontsize #-3
+  \typewriter
+  " Ⅰ"
+}
+second = \markup {
+  \override #'(font-name . "Libertinus Serif")
+  \fontsize #-3
+  \typewriter
+  " Ⅱ"
+}
+third  = \markup {
+  \override #'(font-name . "Libertinus Serif")
+  \fontsize #-3
+  \typewriter
+  " Ⅲ"
+}
 
 #(set-global-staff-size 36)
 
 \paper {
   indent = 0\mm
-  markup-system-spacing.padding = 5
+  markup-system-spacing.padding = 2
   system-system-spacing.padding = 2
   #(define fonts
     (set-global-fonts
@@ -36,8 +51,7 @@ third  = \markup { \typewriter \fontsize #-6 "Ⅲ" }
 }
 
 song = {
-  \shamisenNotation
-  \set TabStaff.tablatureFormat = #(custom-tab-format tsugaru-signs-ascii)
+  \shamisenNotation #tsugaru-signs-ascii
 
   \time 2/4
 
@@ -78,12 +92,53 @@ verse = \lyricmode {
 }
 
 \book {
+  \header {
+    pdftitle = \markup \concat { \fromproperty #'header:title "（楽譜）" }
+    meter = \markup \left-column {
+      "4本（神仙）"
+      \concat { "三下り（調弦 C F B" \flat "）" }
+    }
+  }
+
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \clef "treble_8"
+        \numericTimeSignature
+        \stripShamisenArticulations \song
+      }
+      \addlyrics \verse
+      \new TabStaff \with {
+        stringTunings = #sansagariTuning
+      } {
+        \song
+      }
+    >>
+    \layout {}
+  }
+
+  \score {
+    \unfoldRepeats \song
+    \midi {
+      \tempo 4 = 80
+      midiInstrument = "shamisen"
+    }
+  }
+}
+
+\book {
+  \bookOutputSuffix "tab"
+
   \paper {
     system-system-spacing =
       #'((basic-distance . 5)
          (minimum-distance . 6)
          (padding . 2)
          (stretchability . 12))
+  }
+
+  \header {
+    pdftitle = \markup \fromproperty #'header:title
   }
 
   \score {
@@ -100,33 +155,4 @@ verse = \lyricmode {
       \addlyrics \verse
     >>
   }
-
-  \score {
-    \unfoldRepeats \song
-    \midi {
-      \tempo 4 = 80
-      midiInstrument = "shamisen"
-    }
-  }
-}
-
-\book {
-  \bookOutputSuffix "score"
-
-  \header {
-    pdftitle = \markup \concat { \fromproperty #'header:title " (Score)" }
-  }
-
-  \new StaffGroup <<
-    \new Staff {
-      \clef "treble_8"
-      \stripShamisenArticulations \song
-    }
-    \addlyrics \verse
-    \new TabStaff \with {
-      stringTunings = #sansagariTuning
-    } {
-      \song
-    }
-  >>
 }
