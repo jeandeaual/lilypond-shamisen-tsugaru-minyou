@@ -25,8 +25,8 @@ third  = \markup {
 
 \paper {
   indent = 0\mm
-  markup-system-spacing.padding = 3
-  system-system-spacing.padding = 2
+  markup-system-spacing.padding = 4
+  system-system-spacing.padding = 1
   #(define fonts
     (set-global-fonts
      #:roman "IPAexGothic"
@@ -101,6 +101,10 @@ verse = \lyricmode {
 }
 
 \book {
+  \paper {
+    markup-system-spacing.padding = 0
+  }
+
   \header {
     pdftitle = \markup \concat { \fromproperty #'header:title "（楽譜）" }
     meter = \markup \left-column {
@@ -143,7 +147,7 @@ verse = \lyricmode {
     system-system-spacing =
       #'((basic-distance . 5)
          (minimum-distance . 6)
-         (padding . 2)
+         (padding . 4)
          (stretchability . 12))
   }
 

@@ -25,8 +25,8 @@ third  = \markup {
 
 \paper {
   indent = 0\mm
-  markup-system-spacing.padding = 3
-  system-system-spacing.padding = 2
+  markup-system-spacing.padding = 4
+  system-system-spacing.padding = 1
   #(define fonts
     (set-global-fonts
      #:roman "IPAexGothic"
@@ -182,9 +182,9 @@ song = {
 
   \paper {
     system-system-spacing =
-      #'((basic-distance . 4)
-         (minimum-distance . 4)
-         (padding . 2)
+      #'((basic-distance . 5)
+         (minimum-distance . 5)
+         (padding . 1.2)
          (stretchability . 12))
   }
 
