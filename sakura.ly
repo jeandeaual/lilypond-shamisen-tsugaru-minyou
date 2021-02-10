@@ -51,7 +51,7 @@ third  = \markup {
 }
 
 main = \repeat unfold 2 {
-  <f' g>4^\first q^\first g'^\third r |
+  <f' g>4^\first q^\first g'^\first r |
 }
 
 song = {
