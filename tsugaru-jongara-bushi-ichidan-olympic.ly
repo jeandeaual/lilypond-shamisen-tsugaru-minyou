@@ -21,7 +21,7 @@ third  = \markup {
   " Ⅲ"
 }
 
-#(set-global-staff-size 36)
+#(set-global-staff-size 30)
 
 \paper {
   indent = 0\mm
@@ -55,7 +55,8 @@ third  = \markup {
 }
 
 song = {
-  \shamisenNotation #tsugaru-signs-ascii
+  \shamisenNotation
+  \set TabStaff.tablatureFormat = #(custom-tab-format tsugaru-signs-with-sharps-and-flats)
   \set Staff.ottavationMarkups = #ottavation-ordinals
   \override Staff.OttavaBracket.font-series = #'small
 
@@ -177,16 +178,25 @@ song = {
   }
 }
 
+#(set-global-staff-size 36)
+
+\paper {
+  indent = 0\mm
+  markup-system-spacing.padding = 4
+  system-system-spacing =
+    #'((basic-distance . 5)
+       (minimum-distance . 5)
+       (padding . 1.2)
+       (stretchability . 12))
+  #(define fonts
+    (set-global-fonts
+     #:roman "IPAexGothic"
+     #:factor (/ staff-height pt 20) ; unnecessary if the staff size is default
+    ))
+}
+
 \book {
   \bookOutputSuffix "tab"
-
-  \paper {
-    system-system-spacing =
-      #'((basic-distance . 5)
-         (minimum-distance . 5)
-         (padding . 1.2)
-         (stretchability . 12))
-  }
 
   \header {
     pdftitle = \markup \fromproperty #'header:title

@@ -8,6 +8,10 @@
 *.mp4
 *.log
 -*.tmp*
+*.pdf.*
+*.midi.*
+*.mid.*
+*.svg.*
 
 
 ### Vim ###

@@ -21,7 +21,7 @@ third  = \markup {
   " Ⅲ"
 }
 
-#(set-global-staff-size 36)
+#(set-global-staff-size 32)
 
 \paper {
   indent = 0\mm
@@ -55,7 +55,8 @@ main = \repeat unfold 2 {
 }
 
 song = {
-  \shamisenNotation #tsugaru-signs-ascii
+  \shamisenNotation
+  \set TabStaff.tablatureFormat = #(custom-tab-format tsugaru-signs-with-sharps-and-flats)
 
   \time 4/4
 
@@ -140,16 +141,25 @@ verse = \lyricmode {
   }
 }
 
+#(set-global-staff-size 36)
+
+\paper {
+  indent = 0\mm
+  markup-system-spacing.padding = 4
+  system-system-spacing =
+    #'((basic-distance . 5)
+       (minimum-distance . 6)
+       (padding . 4)
+       (stretchability . 12))
+  #(define fonts
+    (set-global-fonts
+     #:roman "IPAexGothic"
+     #:factor (/ staff-height pt 20) ; unnecessary if the staff size is default
+    ))
+}
+
 \book {
   \bookOutputSuffix "tab"
-
-  \paper {
-    system-system-spacing =
-      #'((basic-distance . 5)
-         (minimum-distance . 6)
-         (padding . 4)
-         (stretchability . 12))
-  }
 
   \header {
     pdftitle = \markup \fromproperty #'header:title
