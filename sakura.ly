@@ -64,7 +64,7 @@ song = {
 
   \repeat unfold 2 {
     f'4^\first g'^\first aes'^\second g'^\first |
-    f'^\first g'8^\third f'^\first \hajiki des'4\2^\second r |
+    f'^\first g'8^\third f'^\first des'4\2^\second r |
 
     \break
 
