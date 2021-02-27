@@ -38,16 +38,16 @@ tspan { white-space: pre; }
 <g transform="translate(70.9887, 17.6533)">
 <rect x="0.0000" y="-2.0000" width="0.1432" height="4.0377" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(54.1978, 17.6533)">
-<rect x="0.0000" y="-2.0000" width="0.1432" height="4.0377" ry="0.0000" fill="currentColor"/>
-</g>
 <g transform="translate(70.9887, 28.7443)">
 <rect x="0.0000" y="-1.5377" width="0.1432" height="3.0377" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(70.9887, 12.7733)">
-<rect x="0.0000" y="6.9177" width="0.1432" height="7.5534" ry="0.0000" fill="currentColor"/>
+<g transform="translate(54.1978, 17.6533)">
+<rect x="0.0000" y="-2.0000" width="0.1432" height="4.0377" ry="0.0000" fill="currentColor"/>
 </g>
 <g transform="translate(24.6858, 12.7733)">
+<rect x="0.0000" y="6.9177" width="0.1432" height="7.5534" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(70.9887, 12.7733)">
 <rect x="0.0000" y="6.9177" width="0.1432" height="7.5534" ry="0.0000" fill="currentColor"/>
 </g>
 <g transform="translate(24.6858, 28.7443)">
@@ -56,23 +56,23 @@ tspan { white-space: pre; }
 <g transform="translate(54.1978, 28.7443)">
 <rect x="0.0000" y="-1.5377" width="0.1432" height="3.0377" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(54.1978, 12.7733)">
-<rect x="0.0000" y="6.9177" width="0.1432" height="7.5534" ry="0.0000" fill="currentColor"/>
-</g>
 <g transform="translate(24.6858, 17.6533)">
-<rect x="0.0000" y="-2.0000" width="0.1432" height="4.0377" ry="0.0000" fill="currentColor"/>
-</g>
-<g transform="translate(39.2553, 17.6533)">
 <rect x="0.0000" y="-2.0000" width="0.1432" height="4.0377" ry="0.0000" fill="currentColor"/>
 </g>
 <g transform="translate(39.2553, 12.7733)">
 <rect x="0.0000" y="6.9177" width="0.1432" height="7.5534" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(3.5566, 14.6533)">
-<rect x="43.8102" y="-0.0877" width="1.8073" height="0.1754" ry="0.0877" fill="currentColor"/>
+<g transform="translate(39.2553, 17.6533)">
+<rect x="0.0000" y="-2.0000" width="0.1432" height="4.0377" ry="0.0000" fill="currentColor"/>
 </g>
 <g transform="translate(39.2553, 28.7443)">
 <rect x="0.0000" y="-1.5377" width="0.1432" height="3.0377" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(54.1978, 12.7733)">
+<rect x="0.0000" y="6.9177" width="0.1432" height="7.5534" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(3.5566, 14.6533)">
+<rect x="43.8102" y="-0.0877" width="1.8073" height="0.1754" ry="0.0877" fill="currentColor"/>
 </g>
 <g transform="translate(3.5566, 30.2443)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0754" stroke="currentColor" x1="0.0377" y1="0" x2="67.5376" y2="0"/>
@@ -82,14 +82,6 @@ tspan { white-space: pre; }
 </g>
 <g transform="translate(3.5566, 27.2443)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0754" stroke="currentColor" x1="0.0377" y1="0" x2="67.5376" y2="0"/>
-</g>
-<g transform="translate(50.9314, 26.1323)">
-<text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
-<tspan> Ⅰ</tspan>
-</text>
-</g>
-<g transform="translate(55.5557, 17.6533)">
-<rect x="-0.0490" y="-1.8033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
 </g>
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
 <g transform="translate(55.5067, 27.2443)">
@@ -131,6 +123,22 @@ tspan { white-space: pre; }
 </text>
 </g>
 </g>
+<g transform="translate(50.9314, 26.1323)">
+<text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
+<tspan> Ⅰ</tspan>
+</text>
+</g>
+<g transform="translate(50.3466, 23.5896)">
+<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
+<tspan>の</tspan>
+</text>
+</g>
+<g transform="translate(50.9314, 15.1533)">
+<path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
+</g>
+<g transform="translate(55.5557, 17.6533)">
+<rect x="-0.0490" y="-1.8033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
+</g>
 <g transform="translate(44.0028, 17.6533)">
 <rect x="-0.0490" y="-2.3033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
 </g>
@@ -159,21 +167,6 @@ tspan { white-space: pre; }
 <g transform="translate(43.9538, 15.1533)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
-<g transform="translate(50.9314, 15.1533)">
-<path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
-</g>
-<g transform="translate(46.3917, 14.6533)">
-<path transform="scale(0.0040, -0.0040)" d="M25 44l-1 -69c0 -4 -1 -7 -1 -11c0 -22 2 -44 4 -66c46 38 96 80 96 139c0 34 -14 69 -44 69c-31 0 -53 -29 -54 -62zM-25 463c8 4 16 7 25 7s17 -3 25 -7l-6 -349c26 19 56 30 88 30c53 0 93 -46 93 -100c0 -82 -90 -118 -153 -169c-14 -11 -22 -32 -40 -32
-c-12 0 -21 9 -21 21z" fill="currentColor"/>
-</g>
-<g transform="translate(50.3466, 23.5896)">
-<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
-<tspan>の</tspan>
-</text>
-</g>
-<g transform="translate(47.5907, 17.6533)">
-<rect x="-0.0490" y="-2.8033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
-</g>
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
 <g transform="translate(47.5417, 27.2443)">
 <rect x="0.1110" y="-0.6323" width="1.1097" height="1.2646" ry="0.0000" fill="currentColor"/>
@@ -185,6 +178,13 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 <tspan>7</tspan>
 </text>
 </g>
+</g>
+<g transform="translate(46.3917, 14.6533)">
+<path transform="scale(0.0040, -0.0040)" d="M25 44l-1 -69c0 -4 -1 -7 -1 -11c0 -22 2 -44 4 -66c46 38 96 80 96 139c0 34 -14 69 -44 69c-31 0 -53 -29 -54 -62zM-25 463c8 4 16 7 25 7s17 -3 25 -7l-6 -349c26 19 56 30 88 30c53 0 93 -46 93 -100c0 -82 -90 -118 -153 -169c-14 -11 -22 -32 -40 -32
+c-12 0 -21 9 -21 21z" fill="currentColor"/>
+</g>
+<g transform="translate(47.5907, 17.6533)">
+<rect x="-0.0490" y="-2.8033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
 </g>
 <g transform="translate(47.5417, 26.1489)">
 <text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
@@ -206,27 +206,8 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 <path transform="scale(0.0040, -0.0040)" d="M-23 -113c0 26 10 40 36 40c34 0 85 -15 130 -37l-137 164c-7 8 -10 17 -10 25c0 33 49 64 86 96c26 22 39 54 39 85c0 24 -8 47 -24 67l-39 46c-2 3 -3 6 -3 9c0 7 7 14 14 14c3 0 7 -1 10 -5l152 -182c7 -8 10 -17 10 -25c0 -33 -49 -64 -86 -96
 c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -14 -14c-3 0 -7 1 -10 5c-19 22 -66 43 -102 43c-40 0 -52 -29 -52 -70c0 -35 11 -75 28 -96c6 -7 -4 -16 -10 -9c-46 55 -93 150 -93 204z" fill="currentColor"/>
 </g>
-<g transform="translate(63.3727, 16.6533)">
-<path transform="scale(0.0040, -0.0040)" d="M25 44l-1 -69c0 -4 -1 -7 -1 -11c0 -22 2 -44 4 -66c46 38 96 80 96 139c0 34 -14 69 -44 69c-31 0 -53 -29 -54 -62zM-25 463c8 4 16 7 25 7s17 -3 25 -7l-6 -349c26 19 56 30 88 30c53 0 93 -46 93 -100c0 -82 -90 -118 -153 -169c-14 -11 -22 -32 -40 -32
-c-12 0 -21 9 -21 21z" fill="currentColor"/>
-</g>
 <g transform="translate(58.8963, 18.4510)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0500" fill="currentColor" stroke="currentColor" points="2.3380 -0.0127 2.3380 0.4173 0.0250 0.2150 0.0250 -0.2150"/>
-</g>
-<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
-<g transform="translate(61.1613, 27.2443)">
-<rect x="0.1110" y="-0.6382" width="1.1097" height="1.2765" ry="0.0000" fill="currentColor"/>
-</g>
-</g>
-<g transform="scale(1.0000, 1.0000)">
-<g transform="translate(61.2723, 27.8826)">
-<text font-family="IPAexGothic" font-weight="bold" font-size="1.7463" text-anchor="start" fill="currentColor">
-<tspan>4</tspan>
-</text>
-</g>
-</g>
-<g transform="translate(61.8311, 29.4943)">
-<path stroke-width="0.1200" stroke-linejoin="miter" stroke-linecap="square" stroke="currentColor" fill="none" d="M-0.2120 -0.3340C-0.2890 -0.0530 -0.4090 0.1570 -0.5530 0.3380M0.1550 -0.3520C0.3280 -0.1060 0.4580 0.1140 0.5450 0.3070"/>
 </g>
 <g transform="translate(61.1613, 26.1430)">
 <text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
@@ -239,8 +220,17 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 <g transform="translate(59.5621, 28.7443)">
 <path stroke-width="0.1200" stroke-linejoin="round" stroke-linecap="square" stroke="currentColor" fill="none" d="M-0.5500 -0.6240L0.5500 -0.6240"/>
 </g>
-<g transform="translate(61.2103, 17.6533)">
-<rect x="-0.0490" y="-1.8033" width="0.0980" height="2.7991" ry="0.0250" fill="currentColor"/>
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(61.1613, 27.2443)">
+<rect x="0.1110" y="-0.6382" width="1.1097" height="1.2765" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(61.2723, 27.8826)">
+<text font-family="IPAexGothic" font-weight="bold" font-size="1.7463" text-anchor="start" fill="currentColor">
+<tspan>4</tspan>
+</text>
+</g>
 </g>
 <g transform="translate(58.9453, 17.6533)">
 <rect x="-0.0490" y="-2.3033" width="0.0980" height="3.1051" ry="0.0250" fill="currentColor"/>
@@ -269,6 +259,10 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 </g>
 <g transform="translate(58.8963, 15.1533)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
+</g>
+<g transform="translate(63.3727, 16.6533)">
+<path transform="scale(0.0040, -0.0040)" d="M25 44l-1 -69c0 -4 -1 -7 -1 -11c0 -22 2 -44 4 -66c46 38 96 80 96 139c0 34 -14 69 -44 69c-31 0 -53 -29 -54 -62zM-25 463c8 4 16 7 25 7s17 -3 25 -7l-6 -349c26 19 56 30 88 30c53 0 93 -46 93 -100c0 -82 -90 -118 -153 -169c-14 -11 -22 -32 -40 -32
+c-12 0 -21 9 -21 21z" fill="currentColor"/>
 </g>
 <g transform="translate(64.5717, 17.6533)">
 <rect x="-0.0490" y="-0.8033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
@@ -300,6 +294,9 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 </g>
 <g transform="translate(61.8271, 28.7443)">
 <path stroke-width="0.1200" stroke-linejoin="round" stroke-linecap="square" stroke="currentColor" fill="none" d="M-0.5500 -0.6384L0.5500 -0.6384"/>
+</g>
+<g transform="translate(61.2103, 17.6533)">
+<rect x="-0.0490" y="-1.8033" width="0.0980" height="2.7991" ry="0.0250" fill="currentColor"/>
 </g>
 <g transform="translate(18.2687, 17.6533)">
 <rect x="-0.0490" y="-2.3033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
@@ -356,8 +353,10 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 </text>
 </g>
 </g>
-<g transform="translate(26.0590, 17.6533)">
-<rect x="-0.0490" y="-1.8033" width="0.0980" height="5.8033" ry="0.0250" fill="currentColor"/>
+<g transform="translate(14.8301, 26.1430)">
+<text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
+<tspan> Ⅰ</tspan>
+</text>
 </g>
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
 <g transform="translate(26.0101, 28.7443)">
@@ -388,15 +387,17 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 <tspan> Ⅰ</tspan>
 </text>
 </g>
-<g transform="translate(26.0101, 18.6533)">
-<path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
+<g transform="translate(25.4253, 23.5896)">
+<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
+<tspan>さ</tspan>
+</text>
 </g>
 <g transform="translate(26.0101, 15.6533)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
-<g transform="translate(14.8301, 26.1430)">
-<text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
-<tspan> Ⅰ</tspan>
+<g transform="translate(14.2453, 23.5896)">
+<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
+<tspan>く</tspan>
 </text>
 </g>
 <g transform="translate(22.0594, 28.7443)">
@@ -478,34 +479,17 @@ c0 58 -4 84 -21 137z" fill="currentColor"/>
 <g transform="translate(2.2860, 22.9488)">
 <rect x="0.0000" y="-7.3782" width="0.4500" height="14.7564" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(14.2453, 23.5896)">
-<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
-<tspan>く</tspan>
-</text>
-</g>
 <g transform="translate(14.8301, 18.6533)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
 <g transform="translate(14.8301, 15.6533)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
-<g transform="translate(25.4253, 23.5896)">
-<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
-<tspan>さ</tspan>
-</text>
+<g transform="translate(26.0101, 18.6533)">
+<path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
 <g transform="translate(11.4895, 17.6533)">
 <rect x="-0.0490" y="-1.8033" width="0.0980" height="5.8033" ry="0.0250" fill="currentColor"/>
-</g>
-<g transform="translate(32.8383, 17.6533)">
-<rect x="-0.0490" y="-2.3033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
-</g>
-<g transform="translate(36.6289, 28.7443)">
-<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4500"/>
-</g>
-<g transform="translate(36.1789, 17.6533)">
-<path transform="scale(0.0040, -0.0040)" d="M-23 -113c0 26 10 40 36 40c34 0 85 -15 130 -37l-137 164c-7 8 -10 17 -10 25c0 33 49 64 86 96c26 22 39 54 39 85c0 24 -8 47 -24 67l-39 46c-2 3 -3 6 -3 9c0 7 7 14 14 14c3 0 7 -1 10 -5l152 -182c7 -8 10 -17 10 -25c0 -33 -49 -64 -86 -96
-c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -14 -14c-3 0 -7 1 -10 5c-19 22 -66 43 -102 43c-40 0 -52 -29 -52 -70c0 -35 11 -75 28 -96c6 -7 -4 -16 -10 -9c-46 55 -93 150 -93 204z" fill="currentColor"/>
 </g>
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
 <g transform="translate(32.7893, 27.2443)">
@@ -518,6 +502,16 @@ c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -
 <tspan>6</tspan>
 </text>
 </g>
+</g>
+<g transform="translate(36.6289, 28.7443)">
+<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4500"/>
+</g>
+<g transform="translate(36.1789, 17.6533)">
+<path transform="scale(0.0040, -0.0040)" d="M-23 -113c0 26 10 40 36 40c34 0 85 -15 130 -37l-137 164c-7 8 -10 17 -10 25c0 33 49 64 86 96c26 22 39 54 39 85c0 24 -8 47 -24 67l-39 46c-2 3 -3 6 -3 9c0 7 7 14 14 14c3 0 7 -1 10 -5l152 -182c7 -8 10 -17 10 -25c0 -33 -49 -64 -86 -96
+c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -14 -14c-3 0 -7 1 -10 5c-19 22 -66 43 -102 43c-40 0 -52 -29 -52 -70c0 -35 11 -75 28 -96c6 -7 -4 -16 -10 -9c-46 55 -93 150 -93 204z" fill="currentColor"/>
+</g>
+<g transform="translate(32.8383, 17.6533)">
+<rect x="-0.0490" y="-2.3033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
 </g>
 <g transform="translate(32.7893, 26.1323)">
 <text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
@@ -532,6 +526,17 @@ c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -
 <g transform="translate(32.7893, 15.1533)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
+<g transform="translate(26.0590, 17.6533)">
+<rect x="-0.0490" y="-1.8033" width="0.0980" height="5.8033" ry="0.0250" fill="currentColor"/>
+</g>
+<g transform="translate(40.5642, 26.1430)">
+<text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
+<tspan> Ⅰ</tspan>
+</text>
+</g>
+<g transform="translate(40.6132, 17.6533)">
+<rect x="-0.0490" y="-1.8033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
+</g>
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
 <g transform="translate(40.5642, 27.2443)">
 <rect x="0.1110" y="-0.6382" width="1.1097" height="1.2765" ry="0.0000" fill="currentColor"/>
@@ -544,14 +549,6 @@ c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -
 </text>
 </g>
 </g>
-<g transform="translate(40.6132, 17.6533)">
-<rect x="-0.0490" y="-1.8033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
-</g>
-<g transform="translate(40.5642, 26.1430)">
-<text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
-<tspan> Ⅰ</tspan>
-</text>
-</g>
 <g transform="translate(39.9794, 23.5896)">
 <text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
 <tspan>や</tspan>
@@ -560,17 +557,11 @@ c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -
 <g transform="translate(40.5642, 15.6533)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
-<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
-<g transform="translate(29.3997, 27.2443)">
-<rect x="0.1110" y="-0.6382" width="1.1097" height="1.2765" ry="0.0000" fill="currentColor"/>
+<g transform="translate(29.4486, 17.6533)">
+<rect x="-0.0490" y="-1.8033" width="0.0980" height="5.8033" ry="0.0250" fill="currentColor"/>
 </g>
-</g>
-<g transform="scale(1.0000, 1.0000)">
-<g transform="translate(29.5106, 27.8826)">
-<text font-family="IPAexGothic" font-weight="bold" font-size="1.7463" text-anchor="start" fill="currentColor">
-<tspan>4</tspan>
-</text>
-</g>
+<g transform="translate(29.3997, 15.6533)">
+<path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
 <g transform="translate(29.3997, 26.1430)">
 <text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
@@ -585,8 +576,17 @@ c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -
 <g transform="translate(29.3997, 18.6533)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
-<g transform="translate(29.3997, 15.6533)">
-<path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(29.3997, 27.2443)">
+<rect x="0.1110" y="-0.6382" width="1.1097" height="1.2765" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(29.5106, 27.8826)">
+<text font-family="IPAexGothic" font-weight="bold" font-size="1.7463" text-anchor="start" fill="currentColor">
+<tspan>4</tspan>
+</text>
+</g>
 </g>
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
 <g transform="translate(29.3997, 28.7443)">
@@ -599,9 +599,6 @@ c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -
 <tspan>0</tspan>
 </text>
 </g>
-</g>
-<g transform="translate(29.4486, 17.6533)">
-<rect x="-0.0490" y="-1.8033" width="0.0980" height="5.8033" ry="0.0250" fill="currentColor"/>
 </g>
 <g transform="translate(3.5566, 42.7443)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0754" stroke="currentColor" x1="0.0377" y1="0" x2="67.5376" y2="0"/>
@@ -666,10 +663,8 @@ c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -
 <g transform="translate(3.5566, 49.8658)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0754" stroke="currentColor" x1="0.0377" y1="0" x2="67.5376" y2="0"/>
 </g>
-<g transform="translate(55.2822, 48.7644)">
-<text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
-<tspan> Ⅰ</tspan>
-</text>
+<g transform="translate(50.6838, 40.7443)">
+<rect x="-0.0490" y="-2.3033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
 </g>
 <g transform="translate(54.6974, 46.1885)">
 <text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
@@ -679,8 +674,17 @@ c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -
 <g transform="translate(55.2822, 38.7443)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
-<g transform="translate(50.6838, 40.7443)">
-<rect x="-0.0490" y="-2.3033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(55.2822, 49.8658)">
+<rect x="0.1110" y="-0.6382" width="1.1097" height="1.2765" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(55.3932, 50.5041)">
+<text font-family="IPAexGothic" font-weight="bold" font-size="1.7463" text-anchor="start" fill="currentColor">
+<tspan>4</tspan>
+</text>
+</g>
 </g>
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
 <g transform="translate(50.6349, 49.8658)">
@@ -707,32 +711,16 @@ c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -
 <g transform="translate(50.6349, 38.2443)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
-<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
-<g transform="translate(55.2822, 49.8658)">
-<rect x="0.1110" y="-0.6382" width="1.1097" height="1.2765" ry="0.0000" fill="currentColor"/>
-</g>
-</g>
-<g transform="scale(1.0000, 1.0000)">
-<g transform="translate(55.3932, 50.5041)">
-<text font-family="IPAexGothic" font-weight="bold" font-size="1.7463" text-anchor="start" fill="currentColor">
-<tspan>4</tspan>
+<g transform="translate(55.2822, 48.7644)">
+<text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
+<tspan> Ⅰ</tspan>
 </text>
-</g>
 </g>
 <g transform="translate(55.3312, 40.7443)">
 <rect x="-0.0490" y="-1.8033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
 </g>
 <g transform="translate(43.5435, 38.2443)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
-</g>
-<g transform="translate(42.9587, 46.1885)">
-<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
-<tspan>す</tspan>
-</text>
-</g>
-<g transform="translate(46.0383, 37.7443)">
-<path transform="scale(0.0040, -0.0040)" d="M25 44l-1 -69c0 -4 -1 -7 -1 -11c0 -22 2 -44 4 -66c46 38 96 80 96 139c0 34 -14 69 -44 69c-31 0 -53 -29 -54 -62zM-25 463c8 4 16 7 25 7s17 -3 25 -7l-6 -349c26 19 56 30 88 30c53 0 93 -46 93 -100c0 -82 -90 -118 -153 -169c-14 -11 -22 -32 -40 -32
-c-12 0 -21 9 -21 21z" fill="currentColor"/>
 </g>
 <g transform="translate(47.2373, 40.7443)">
 <rect x="-0.0490" y="-2.8033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
@@ -762,6 +750,10 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 <g transform="translate(47.1883, 37.7443)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
+<g transform="translate(46.0383, 37.7443)">
+<path transform="scale(0.0040, -0.0040)" d="M25 44l-1 -69c0 -4 -1 -7 -1 -11c0 -22 2 -44 4 -66c46 38 96 80 96 139c0 34 -14 69 -44 69c-31 0 -53 -29 -54 -62zM-25 463c8 4 16 7 25 7s17 -3 25 -7l-6 -349c26 19 56 30 88 30c53 0 93 -46 93 -100c0 -82 -90 -118 -153 -169c-14 -11 -22 -32 -40 -32
+c-12 0 -21 9 -21 21z" fill="currentColor"/>
+</g>
 <g transform="translate(43.5924, 40.7443)">
 <rect x="-0.0490" y="-2.3033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
 </g>
@@ -782,15 +774,20 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 <tspan> Ⅰ</tspan>
 </text>
 </g>
-<g transform="translate(67.8554, 40.7443)">
-<path transform="scale(0.0040, -0.0040)" d="M-23 -113c0 26 10 40 36 40c34 0 85 -15 130 -37l-137 164c-7 8 -10 17 -10 25c0 33 49 64 86 96c26 22 39 54 39 85c0 24 -8 47 -24 67l-39 46c-2 3 -3 6 -3 9c0 7 7 14 14 14c3 0 7 -1 10 -5l152 -182c7 -8 10 -17 10 -25c0 -33 -49 -64 -86 -96
-c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -14 -14c-3 0 -7 1 -10 5c-19 22 -66 43 -102 43c-40 0 -52 -29 -52 -70c0 -35 11 -75 28 -96c6 -7 -4 -16 -10 -9c-46 55 -93 150 -93 204z" fill="currentColor"/>
+<g transform="translate(42.9587, 46.1885)">
+<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
+<tspan>す</tspan>
+</text>
+</g>
+<g transform="translate(68.3054, 51.3658)">
+<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4500"/>
 </g>
 <g transform="translate(26.5206, 42.9467)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0500" fill="currentColor" stroke="currentColor" points="3.4612 0.3804 3.4612 0.8104 0.0250 0.2150 0.0250 -0.2150"/>
 </g>
-<g transform="translate(68.3054, 51.3658)">
-<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4500"/>
+<g transform="translate(67.8554, 40.7443)">
+<path transform="scale(0.0040, -0.0040)" d="M-23 -113c0 26 10 40 36 40c34 0 85 -15 130 -37l-137 164c-7 8 -10 17 -10 25c0 33 49 64 86 96c26 22 39 54 39 85c0 24 -8 47 -24 67l-39 46c-2 3 -3 6 -3 9c0 7 7 14 14 14c3 0 7 -1 10 -5l152 -182c7 -8 10 -17 10 -25c0 -33 -49 -64 -86 -96
+c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -14 -14c-3 0 -7 1 -10 5c-19 22 -66 43 -102 43c-40 0 -52 -29 -52 -70c0 -35 11 -75 28 -96c6 -7 -4 -16 -10 -9c-46 55 -93 150 -93 204z" fill="currentColor"/>
 </g>
 <g transform="translate(63.2588, 39.7443)">
 <path transform="scale(0.0040, -0.0040)" d="M25 44l-1 -69c0 -4 -1 -7 -1 -11c0 -22 2 -44 4 -66c46 38 96 80 96 139c0 34 -14 69 -44 69c-31 0 -53 -29 -54 -62zM-25 463c8 4 16 7 25 7s17 -3 25 -7l-6 -349c26 19 56 30 88 30c53 0 93 -46 93 -100c0 -82 -90 -118 -153 -169c-14 -11 -22 -32 -40 -32
@@ -799,8 +796,16 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 <g transform="translate(58.7288, 41.5420)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0500" fill="currentColor" stroke="currentColor" points="2.3648 -0.0127 2.3648 0.4173 0.0250 0.2150 0.0250 -0.2150"/>
 </g>
-<g transform="translate(64.4578, 40.7443)">
-<rect x="-0.0490" y="-0.8033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
+<g transform="translate(58.7288, 46.1885)">
+<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
+<tspan>も</tspan>
+</text>
+</g>
+<g transform="translate(59.3946, 51.3658)">
+<path stroke-width="0.1200" stroke-linejoin="round" stroke-linecap="square" stroke="currentColor" fill="none" d="M-0.5500 -0.6240L0.5500 -0.6240"/>
+</g>
+<g transform="translate(58.7778, 40.7443)">
+<rect x="-0.0490" y="-2.3033" width="0.0980" height="3.1051" ry="0.0250" fill="currentColor"/>
 </g>
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
 <g transform="translate(58.7288, 49.8658)">
@@ -814,27 +819,19 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 </text>
 </g>
 </g>
-<g transform="translate(59.3946, 51.3658)">
-<path stroke-width="0.1200" stroke-linejoin="round" stroke-linecap="square" stroke="currentColor" fill="none" d="M-0.5500 -0.6240L0.5500 -0.6240"/>
-</g>
-<g transform="translate(58.7778, 40.7443)">
-<rect x="-0.0490" y="-2.3033" width="0.0980" height="3.1051" ry="0.0250" fill="currentColor"/>
-</g>
-<g transform="translate(61.0206, 38.7443)">
-<path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
-</g>
 <g transform="translate(58.7288, 48.7538)">
 <text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
 <tspan> Ⅲ</tspan>
 </text>
 </g>
-<g transform="translate(58.7288, 46.1885)">
-<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
-<tspan>も</tspan>
-</text>
-</g>
 <g transform="translate(58.7288, 38.2443)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
+</g>
+<g transform="translate(61.6864, 51.3658)">
+<path stroke-width="0.1200" stroke-linejoin="round" stroke-linecap="square" stroke="currentColor" fill="none" d="M-0.5500 -0.6384L0.5500 -0.6384"/>
+</g>
+<g transform="translate(64.4578, 40.7443)">
+<rect x="-0.0490" y="-0.8033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
 </g>
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
 <g transform="translate(64.4088, 51.3658)">
@@ -861,9 +858,6 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 <g transform="translate(64.4088, 39.7443)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
-<g transform="translate(61.6864, 51.3658)">
-<path stroke-width="0.1200" stroke-linejoin="round" stroke-linecap="square" stroke="currentColor" fill="none" d="M-0.5500 -0.6384L0.5500 -0.6384"/>
-</g>
 <g transform="translate(61.0696, 40.7443)">
 <rect x="-0.0490" y="-1.8033" width="0.0980" height="2.7991" ry="0.0250" fill="currentColor"/>
 </g>
@@ -879,20 +873,15 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 </text>
 </g>
 </g>
-<g transform="translate(61.6904, 52.1158)">
-<path stroke-width="0.1200" stroke-linejoin="miter" stroke-linecap="square" stroke="currentColor" fill="none" d="M-0.2120 -0.3340C-0.2890 -0.0530 -0.4090 0.1570 -0.5530 0.3380M0.1550 -0.3520C0.3280 -0.1060 0.4580 0.1140 0.5450 0.3070"/>
-</g>
 <g transform="translate(61.0206, 48.7644)">
 <text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
 <tspan> Ⅰ</tspan>
 </text>
 </g>
-<g transform="translate(14.2394, 46.1885)">
-<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
-<tspan>た</tspan>
-</text>
+<g transform="translate(61.0206, 38.7443)">
+<path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
-<g transform="translate(18.4691, 39.7443)">
+<g transform="translate(14.8242, 40.2443)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
 <g transform="translate(14.8732, 40.7443)">
@@ -910,31 +899,50 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 </text>
 </g>
 </g>
-<g transform="translate(17.8843, 46.1885)">
+<g transform="translate(14.2394, 46.1885)">
 <text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
-<tspan>す</tspan>
+<tspan>た</tspan>
 </text>
 </g>
-<g transform="translate(14.8242, 40.2443)">
+<g transform="translate(18.4691, 39.7443)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
 <g transform="translate(10.0594, 41.2443)">
 <path transform="scale(0.0040, -0.0040)" d="M25 44l-1 -69c0 -4 -1 -7 -1 -11c0 -22 2 -44 4 -66c46 38 96 80 96 139c0 34 -14 69 -44 69c-31 0 -53 -29 -54 -62zM-25 463c8 4 16 7 25 7s17 -3 25 -7l-6 -349c26 19 56 30 88 30c53 0 93 -46 93 -100c0 -82 -90 -118 -153 -169c-14 -11 -22 -32 -40 -32
 c-12 0 -21 9 -21 21z" fill="currentColor"/>
 </g>
+<g transform="translate(12.4662, 40.7443)">
+<rect x="-0.0490" y="-3.0000" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
+</g>
 <g transform="translate(23.1230, 40.7443)">
 <rect x="-0.0490" y="-0.3033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
 </g>
-<g transform="translate(22.4892, 46.1885)">
-<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
-<tspan>か</tspan>
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(23.0740, 49.8658)">
+<rect x="0.1110" y="-0.6489" width="1.1097" height="1.2978" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(23.1850, 50.5062)">
+<text font-family="IPAexGothic" font-weight="bold" font-size="1.7463" text-anchor="start" fill="currentColor">
+<tspan>0</tspan>
 </text>
+</g>
 </g>
 <g transform="translate(23.0740, 40.2443)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
-<g transform="translate(12.4662, 40.7443)">
-<rect x="-0.0490" y="-3.0000" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
+<g transform="translate(11.2094, 51.3658)">
+<rect x="0.1110" y="-0.6455" width="1.1097" height="1.2910" ry="0.0000" fill="currentColor"/>
+</g>
+</g>
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(11.3203, 52.0113)">
+<text font-family="IPAexGothic" font-weight="bold" font-size="1.7463" text-anchor="start" fill="currentColor">
+<tspan>1</tspan>
+</text>
+</g>
 </g>
 <g transform="translate(17.3191, 39.7443)">
 <path transform="scale(0.0040, -0.0040)" d="M25 44l-1 -69c0 -4 -1 -7 -1 -11c0 -22 2 -44 4 -66c46 38 96 80 96 139c0 34 -14 69 -44 69c-31 0 -53 -29 -54 -62zM-25 463c8 4 16 7 25 7s17 -3 25 -7l-6 -349c26 19 56 30 88 30c53 0 93 -46 93 -100c0 -82 -90 -118 -153 -169c-14 -11 -22 -32 -40 -32
@@ -958,6 +966,11 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 <g transform="translate(18.4691, 48.7572)">
 <text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
 <tspan> Ⅰ</tspan>
+</text>
+</g>
+<g transform="translate(17.8843, 46.1885)">
+<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
+<tspan>す</tspan>
 </text>
 </g>
 <g transform="translate(4.9451, 45.2782)">
@@ -984,17 +997,8 @@ c0 58 -4 84 -21 137z" fill="currentColor"/>
 <g transform="translate(2.2860, 45.8051)">
 <rect x="0.0000" y="-7.1434" width="0.4500" height="14.2868" ry="0.0000" fill="currentColor"/>
 </g>
-<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
-<g transform="translate(11.2094, 51.3658)">
-<rect x="0.1110" y="-0.6455" width="1.1097" height="1.2910" ry="0.0000" fill="currentColor"/>
-</g>
-</g>
-<g transform="scale(1.0000, 1.0000)">
-<g transform="translate(11.3203, 52.0113)">
-<text font-family="IPAexGothic" font-weight="bold" font-size="1.7463" text-anchor="start" fill="currentColor">
-<tspan>1</tspan>
-</text>
-</g>
+<g transform="translate(7.6135, 40.7443)">
+<rect x="-0.0490" y="-0.3033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
 </g>
 <g transform="translate(11.2094, 49.0781)">
 <text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
@@ -1009,20 +1013,10 @@ c0 58 -4 84 -21 137z" fill="currentColor"/>
 <g transform="translate(11.2094, 41.2443)">
 <path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
 </g>
-<g color="rgb(100.0000%, 100.0000%, 100.0000%)">
-<g transform="translate(23.0740, 49.8658)">
-<rect x="0.1110" y="-0.6489" width="1.1097" height="1.2978" ry="0.0000" fill="currentColor"/>
-</g>
-</g>
-<g transform="scale(1.0000, 1.0000)">
-<g transform="translate(23.1850, 50.5062)">
-<text font-family="IPAexGothic" font-weight="bold" font-size="1.7463" text-anchor="start" fill="currentColor">
-<tspan>0</tspan>
+<g transform="translate(22.4892, 46.1885)">
+<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
+<tspan>か</tspan>
 </text>
-</g>
-</g>
-<g transform="translate(7.6135, 40.7443)">
-<rect x="-0.0490" y="-0.3033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
 </g>
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
 <g transform="translate(7.5645, 49.8658)">
@@ -1089,6 +1083,11 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 </text>
 </g>
 </g>
+<g transform="translate(29.9088, 49.0781)">
+<text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
+<tspan> Ⅰ</tspan>
+</text>
+</g>
 <g transform="translate(40.1459, 40.7443)">
 <rect x="-0.0490" y="-1.8033" width="0.0980" height="3.3033" ry="0.0250" fill="currentColor"/>
 </g>
@@ -1124,8 +1123,19 @@ c-12 0 -21 9 -21 21z" fill="currentColor"/>
 <path transform="scale(0.0040, -0.0040)" d="M-23 -113c0 26 10 40 36 40c34 0 85 -15 130 -37l-137 164c-7 8 -10 17 -10 25c0 33 49 64 86 96c26 22 39 54 39 85c0 24 -8 47 -24 67l-39 46c-2 3 -3 6 -3 9c0 7 7 14 14 14c3 0 7 -1 10 -5l152 -182c7 -8 10 -17 10 -25c0 -33 -49 -64 -86 -96
 c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -14 -14c-3 0 -7 1 -10 5c-19 22 -66 43 -102 43c-40 0 -52 -29 -52 -70c0 -35 11 -75 28 -96c6 -7 -4 -16 -10 -9c-46 55 -93 150 -93 204z" fill="currentColor"/>
 </g>
-<g transform="translate(26.5695, 40.7443)">
-<rect x="-0.0490" y="-0.3033" width="0.0980" height="2.5140" ry="0.0250" fill="currentColor"/>
+<g transform="translate(26.5206, 46.1885)">
+<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
+<tspan>ぎ</tspan>
+</text>
+</g>
+<g transform="translate(29.9088, 41.2443)">
+<path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
+</g>
+<g transform="translate(26.5206, 40.2443)">
+<path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
+</g>
+<g transform="translate(27.1864, 51.3658)">
+<path stroke-width="0.1200" stroke-linejoin="round" stroke-linecap="square" stroke="currentColor" fill="none" d="M-0.5500 -0.6240L0.5500 -0.6240"/>
 </g>
 <g color="rgb(100.0000%, 100.0000%, 100.0000%)">
 <g transform="translate(26.5206, 49.8658)">
@@ -1139,24 +1149,8 @@ c-26 -22 -39 -54 -39 -85c0 -24 8 -47 24 -67l87 -104c2 -3 3 -5 3 -8c0 -7 -7 -14 -
 </text>
 </g>
 </g>
-<g transform="translate(26.5206, 46.1885)">
-<text font-family="IPAexGothic" font-size="2.4695" text-anchor="start" fill="currentColor">
-<tspan>ぎ</tspan>
-</text>
-</g>
-<g transform="translate(29.9088, 49.0781)">
-<text font-family="Libertinus Serif" font-size="1.5557" text-anchor="start" fill="currentColor">
-<tspan> Ⅰ</tspan>
-</text>
-</g>
-<g transform="translate(26.5206, 40.2443)">
-<path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
-</g>
-<g transform="translate(29.9088, 41.2443)">
-<path transform="scale(0.0040, -0.0040)" d="M222 135c53 0 104 -27 104 -86c0 -71 -56 -120 -103 -148c-36 -22 -76 -36 -118 -36c-53 0 -105 27 -105 86c0 71 57 120 104 148c36 22 76 36 118 36z" fill="currentColor"/>
-</g>
-<g transform="translate(27.1864, 51.3658)">
-<path stroke-width="0.1200" stroke-linejoin="round" stroke-linecap="square" stroke="currentColor" fill="none" d="M-0.5500 -0.6240L0.5500 -0.6240"/>
+<g transform="translate(26.5695, 40.7443)">
+<rect x="-0.0490" y="-0.3033" width="0.0980" height="2.5140" ry="0.0250" fill="currentColor"/>
 </g>
 <g transform="translate(3.5566, 65.3658)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0754" stroke="currentColor" x1="0.0377" y1="0" x2="67.5376" y2="0"/>
