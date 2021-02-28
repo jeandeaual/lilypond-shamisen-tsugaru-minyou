@@ -10,11 +10,6 @@ tspan { white-space: pre; }
 <tspan>2</tspan>
 </text>
 </g>
-<g transform="translate(75.2822, 3.5213)">
-<text font-family="IPAexGothic" font-size="2.2003" text-anchor="start" fill="currentColor">
-<tspan> </tspan>
-</text>
-</g>
 <g transform="translate(3.7937, 11.4265)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0781" stroke="currentColor" x1="0.0390" y1="0" x2="72.0413" y2="0"/>
 </g>
