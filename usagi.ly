@@ -34,13 +34,16 @@ third  = \markup {
     ))
 }
 
+scoreTitle = "うさぎ"
+scoreMeter = "2/4 三下がり"
+
 \header {
-  title = "うさぎ"
-  meter = "2/4 三下がり"
+  title = \scoreTitle
+  meter = \scoreMeter
   tagline = ##f
   subject = \markup \concat {
     "Shamisen partition for “"
-    \fromproperty #'header:title
+    \scoreTitle
     "”."
   }
   keywords = #(string-join '(
@@ -94,10 +97,10 @@ verse = \lyricmode {
 
 \book {
   \header {
-    pdftitle = \markup \concat { \fromproperty #'header:title "（楽譜）" }
+    pdftitle = \markup \concat { \scoreTitle "（五線譜付き）" }
     meter = \markup \left-column {
       "4本（神仙）"
-      \concat { "三下り（調弦 C F B" \flat "）" }
+      \concat { \scoreMeter "（調弦 C G C）" }
     }
   }
 
@@ -128,7 +131,7 @@ verse = \lyricmode {
   }
 }
 
-#(set-global-staff-size 36)
+#(set-global-staff-size 42)
 
 \paper {
   indent = 0\mm
@@ -145,11 +148,22 @@ verse = \lyricmode {
     ))
 }
 
+\layout {
+  \context {
+    \Score
+    \override LyricText #'font-size = #-1
+  }
+}
+
 \book {
   \bookOutputSuffix "tab"
 
   \header {
-    pdftitle = \markup \fromproperty #'header:title
+    title = \markup {
+      \fontsize #-2
+      \scoreTitle
+    }
+    meter = \markup \fontsize #-2 \scoreMeter
   }
 
   \score {

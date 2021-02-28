@@ -32,18 +32,31 @@ third  = \markup {
      #:roman "IPAexGothic"
      #:factor (/ staff-height pt 20) ; unnecessary if the staff size is default
     ))
+  oddHeaderMarkup = \markup \fill-line { " " \fontsize #0 \on-the-fly #not-first-page \fromproperty #'page:page-number-string }
+  evenHeaderMarkup = \markup \fill-line { \fontsize #0 \on-the-fly #not-first-page \fromproperty #'page:page-number-string " " }
 }
 
+scoreTitle = "津軽じょんがら節六段ー1段"
+scoreSubtitle = "オリンピックバージョン"
+scoreMeter = "二上り"
+
 \header {
-  title = "津軽じょんがら節六段ー1段"
-  subtitle = "オリンピックバージョン"
-  meter = "二上り"
+  pdftitle = \markup \concat { \scoreTitle "　" \scoreSubtitle }
+  title = \markup {
+    \override #'(baseline-skip . 3.25)
+    \center-column {
+      \scoreTitle
+      \fontsize #-3
+      \scoreSubtitle
+    }
+  }
+  meter = \scoreMeter
   tagline = ##f
   subject = \markup \concat {
     "Shamisen partition for “"
-    \fromproperty #'header:title
+    \scoreTitle
     " ("
-    \fromproperty #'header:subtitle
+    \scoreSubtitle
     ")"
     "”."
   }
@@ -53,6 +66,15 @@ third  = \markup {
     "shamisen"
   ) ", ")
 }
+
+% From https://lilypond.1069038.n5.nabble.com/Hammer-on-and-pull-off-td208307.html
+after = #(define-music-function (t e m) (ly:duration? ly:music? ly:music?)
+  #{
+    \context Bottom <<
+      #m
+      { \skip $t <> -\tweak extra-spacing-width #empty-interval $e }
+    >>
+  #})
 
 song = {
   \shamisenNotation
@@ -72,7 +94,7 @@ song = {
   \set TabStaff.minimumFret = #5
   \set TabStaff.restrainOpenStrings = ##t
   g^\third g |
-  g_\markup{ \fontsize #-7 "スリ" }( ais) |
+  \after 8 -\tweak X-offset #-0.25 _\markup{ \fontsize #-7 "スリ" } g( ais) |
   \set TabStaff.minimumFret = #10
   ais( c') |
   \repeat unfold 2 {
@@ -125,6 +147,7 @@ song = {
   \repeat percent 3 {
     \trtr { f'16^\third dis'^\third\hajiki c'\sukui c'\hajiki^\first } |
   }
+  \break
   \time 2/4
   c'8 ais^\first c'\2^\third c'\2\sukui^\third |
   c'\2^\third c'16\2^\third ais\hajiki^\third c'8\2^\third r |
@@ -145,10 +168,13 @@ song = {
 
 \book {
   \header {
-    pdftitle = \markup \concat { \fromproperty #'header:title "（楽譜）" }
-    meter = \markup \left-column {
-      "4本（神仙）"
-      "二上り（調弦 C G C）"
+    pdftitle = \markup \concat { \scoreTitle "　" \scoreSubtitle "（五線譜付き）" }
+    meter = \markup {
+      \override #'(baseline-skip . 3)
+      \left-column {
+        "4本（神仙）"
+        \concat { \scoreMeter "（調弦 C G C）" }
+      }
     }
   }
 
@@ -178,11 +204,11 @@ song = {
   }
 }
 
-#(set-global-staff-size 36)
+#(set-global-staff-size 50)
 
 \paper {
   indent = 0\mm
-  markup-system-spacing.padding = 4
+  markup-system-spacing.padding = 1
   system-system-spacing =
     #'((basic-distance . 5)
        (minimum-distance . 5)
@@ -193,13 +219,24 @@ song = {
      #:roman "IPAexGothic"
      #:factor (/ staff-height pt 20) ; unnecessary if the staff size is default
     ))
+  oddHeaderMarkup = \markup \fill-line { " " \fontsize #0 \on-the-fly #not-first-page \fromproperty #'page:page-number-string }
+  evenHeaderMarkup = \markup \fill-line { \fontsize #0 \on-the-fly #not-first-page \fromproperty #'page:page-number-string " " }
 }
 
 \book {
   \bookOutputSuffix "tab"
 
   \header {
-    pdftitle = \markup \fromproperty #'header:title
+    title = \markup {
+      \override #'(baseline-skip . 2)
+      \center-column {
+        \fontsize #-3.5
+        \scoreTitle
+        \fontsize #-6.5
+        \scoreSubtitle
+      }
+    }
+    meter = \markup \fontsize #-3.5 \scoreMeter
   }
 
   \score {

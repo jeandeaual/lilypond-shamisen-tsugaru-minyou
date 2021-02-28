@@ -34,18 +34,19 @@ third  = \markup {
     ))
 }
 
-songTitle = "Au clair de la lune"
+scoreTitle = "Au clair de la lune"
+scoreMeter = "4/4 二上り"
 
 \header {
-  pdftitle = \songTitle
+  pdftitle = \scoreTitle
   title = \markup {
     \override #'(font-name . "C059 Roman")
-    \songTitle
+    \scoreTitle
   }
-  meter = "4/4 二上り"
+  meter = \scoreMeter
   subject = \markup \concat {
     "Shamisen partition for “"
-    \songTitle
+    \scoreTitle
     "”."
   }
   source = "https://en.wikipedia.org/wiki/Au_clair_de_la_lune"
@@ -101,10 +102,10 @@ verse = \lyricmode {
 
 \book {
   \header {
-    pdftitle = \markup \concat { \fromproperty #'header:title "（楽譜）" }
+    pdftitle = \markup \concat { \scoreTitle "（五線譜付き）" }
     meter = \markup \left-column {
       "4本（神仙）"
-      "二上り（調弦 C G C）"
+      \concat { \scoreMeter "（調弦 C G C）" }
     }
   }
 
@@ -135,7 +136,7 @@ verse = \lyricmode {
   }
 }
 
-#(set-global-staff-size 36)
+#(set-global-staff-size 42)
 
 \paper{
   indent = 0\mm
@@ -152,11 +153,22 @@ verse = \lyricmode {
     ))
 }
 
+\layout {
+  \context {
+    \Score
+    \override LyricText #'font-size = #-1
+  }
+}
+
 \book {
   \bookOutputSuffix "tab"
 
   \header {
-    pdftitle = \markup \fromproperty #'header:title
+    title = \markup {
+      \fontsize #-2
+      \scoreTitle
+    }
+    meter = \markup \fontsize #-2 \scoreMeter
   }
 
   \score {
