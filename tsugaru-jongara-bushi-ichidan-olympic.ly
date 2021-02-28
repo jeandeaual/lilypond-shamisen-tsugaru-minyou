@@ -32,8 +32,6 @@ third  = \markup {
      #:roman "IPAexGothic"
      #:factor (/ staff-height pt 20) ; unnecessary if the staff size is default
     ))
-  oddHeaderMarkup = \markup \fill-line { " " \fontsize #0 \on-the-fly #not-first-page \fromproperty #'page:page-number-string }
-  evenHeaderMarkup = \markup \fill-line { \fontsize #0 \on-the-fly #not-first-page \fromproperty #'page:page-number-string " " }
 }
 
 scoreTitle = "津軽じょんがら節六段ー1段"
@@ -219,8 +217,8 @@ song = {
      #:roman "IPAexGothic"
      #:factor (/ staff-height pt 20) ; unnecessary if the staff size is default
     ))
-  oddHeaderMarkup = \markup \fill-line { " " \fontsize #0 \on-the-fly #not-first-page \fromproperty #'page:page-number-string }
-  evenHeaderMarkup = \markup \fill-line { \fontsize #0 \on-the-fly #not-first-page \fromproperty #'page:page-number-string " " }
+  oddHeaderMarkup = \markup \fill-line { " " \fontsize #-4 \on-the-fly #not-first-page \fromproperty #'page:page-number-string }
+  evenHeaderMarkup = \markup \fill-line { \fontsize #-4 \on-the-fly #not-first-page \fromproperty #'page:page-number-string " " }
 }
 
 \book {
